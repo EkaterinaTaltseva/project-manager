@@ -1,4 +1,4 @@
-# crm
+# project-manager
 
 ## Project setup
 ```
