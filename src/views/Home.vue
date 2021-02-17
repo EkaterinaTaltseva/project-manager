@@ -10,7 +10,10 @@
     <loader v-if="loading" />
     <div class="row" v-else >
       <home-bill  :rates="currency.rates" />
-      <home-currency/>
+      <home-currency
+          :rates="currency.rates" 
+          :date="currency.date"
+      />
     </div>
   </div>
 </template>

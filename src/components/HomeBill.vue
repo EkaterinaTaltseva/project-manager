@@ -8,7 +8,7 @@
            v-for="cur in currencies"
            :key="cur"
         >
-          <span>{{ getCurrency(cur) }}</span>
+          <span>{{ getCurrency(cur) | currencyFilter(cur) }}</span>
         </p>
       </div>
     </div>
